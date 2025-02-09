@@ -8,7 +8,7 @@ from groq import Groq
 st.set_page_config(page_title="Time Series Analysis", layout="wide")
 
 # Initialize API key
-st.secrets["GROQ_API_KEY"]
+api_key1=st.secrets["GROQ_API_KEY"]
 
 def prepare_time_series_data(df):
     """Prepare time series data by identifying date columns and numerical columns"""
