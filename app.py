@@ -10,7 +10,7 @@ import plotly.graph_objects as go
 st.set_page_config(page_title="Time Series Analysis", layout="wide")
 
 # Initialize API key
-api_key1 = "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"
+api_key1 = st.secrets["GROQ_API_KEY"]
 
 
 def prepare_time_series_data(df):
